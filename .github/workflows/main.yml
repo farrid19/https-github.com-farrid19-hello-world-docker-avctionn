@@ -20,4 +20,5 @@ jobs:
 
       - name : install okteto
         run : curl https://get.okteto.com -sSfL | sh
+      - name : version okteto  
         run : okteto version
